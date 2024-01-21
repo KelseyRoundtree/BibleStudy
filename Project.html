@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bible Study</title>
+    <style>
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      a:hover {
+        transition: all 175ms ease-in-out;
+        cursor: pointer;
+        color: #fff;
+      }
+      h1 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: #000;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 300;
+        font-size: 150px;
+        padding: 30px;
+        margin-top: 50px;
+        background-color: #fff;
+      }
+      h2 {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        color: #000;
+        margin: 5px auto 10px;
+      }
+      hr {
+        height: 5px;
+        background-color: #000;
+      }
+      body {
+        background: #aedadd;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+      li {
+        display: inline-block;
+        text-align: left;
+        margin: 50px 100px;
+      }
+      button {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        background-color: #6e7da2;
+        color: #fff;
+        padding: 15px 20px;
+        border-radius: 10px;
+        transition-duration: 0.4s;
+        box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+        border-color: #6e7da2;
+      }
+      button:hover {
+        background-color: #fff;
+        color: #6e7da2;
+        cursor: pointer;
+        border-color: #6e7da2;
+        transition: all 0.2s ease-in-out;
+      }
+      .navbar {
+        background: #aedadd;
+        text-align: right;
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+      }
+      .navitem {
+        display: inline-flex;
+        list-style-type: none;
+        padding: 15px 50px 10px;
+        margin: 0 auto;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        justify-content: space-between;
+      }
+      .header {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+        padding: 0 100px;
+        background-position: center;
+        height: 100vh;
+      }
+      .quote {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        color: #000;
+        font-size: 25px;
+        margin: 0 75px;
+      }
+      .quotelink {
+        font-size: 13px;
+        font-weight: bold;
+        border: thin solid #000;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      .box {
+        box-sizing: content-box;
+        width: 22%;
+        max-width: 275px;
+        height: 275px;
+        border: 3px solid #db996c;
+        border-radius: 4%;
+        margin: 10%;
+        padding: 75px;
+        background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+      }
+      .description {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      .letter {
+        font-size: 75px;
+      }
+      .gospels {
+        color: #000;
+        border: 3px solid #6e7da2;
+        font-size: 40px;
+      }
+      .startfooter {
+        border: #000;
+        background-color: #fcf8f3;
+        text-align: center;
+        padding: 35px;
+      }
+      .gospelslink {
+        font-weight: lighter;
+        border: 2.5px solid #db996c;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 12px 8px;
+      }
+      .gospelslink:hover {
+        color: #db996c;
+      }
+      .gospelslink:visited {
+        color: #db996c;
+      }
+      .gospeld {
+        font-size: 26px;
+      }
+      .footer {
+        text-align: center;
+        font-size: 10px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <ul>
+          <li class="navitem">
+            <a class="link" href="" target="blank">Home</a>
+          </li>
+          <li class="navitem">
+            <a class="link" href="" target="blank">About Us</a>
+          </li>
+          <li class="navitem">
+            <a class="link" href="" target="blank">Bible Study</a>
+          </li>
+          <li class="navitem">
+            <a class="link" href="" target="blank">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <hr />
+    <div class="cover">
+      <h1>Bible Study</h1>
+      <h2>Using the SOAP method</h2>
+      <hr />
+      <p class="quote">
+        "What we write down is what we remember. It’s like a time capsule in a
+        way, a lifeline back to the best parts of ourselves. A little popcorn
+        trail of words we can follow so that we never lose sight of the path
+        we’re on." <br />
+        <a
+          href="https://thepowerofwritingitdown.com/"
+          target="blank"
+          class="quotelink"
+          >Allison Fallon</a
+        >
+      </p>
+    </div>
+
+    <ul>
+      <li class="box">
+        <div class="letter">S</div>
+        <div class="description">
+          <strong>Scripture:</strong>
+          <br />
+          Write out which bible verse you want to unpack! Writing down the verse
+          will help to memorize what you are studying.
+        </div>
+      </li>
+      <li class="box">
+        <div class="letter">O</div>
+        <div class="description">
+          <strong>Observation:</strong>
+          <br />
+          While reading the verse, is there anything that stands out to you?
+          What do you think the message of the verse is?
+        </div>
+      </li>
+      <li class="box">
+        <div class="letter">A</div>
+        <div class="description">
+          <strong>Application;</strong>
+          <br />
+          In what ways does the message of this verse apply to your life? What
+          can you change?
+        </div>
+      </li>
+      <li class="box">
+        <div class="letter">P</div>
+        <div class="description">
+          <strong>Prayer:</strong>
+          <br />
+          If there is something that you feel God has revealed to you, pray
+          about it! Ask the Lord to give you the strength to apply the message
+          of the verse to your life.
+        </div>
+      </li>
+    </ul>
+    <div class="startfooter">
+      <h2 class="gospels">Dont know where to start in the bible?</h2>
+      <p class="gospeld">
+        Start with the Gospels! The Books of Matthew, Mark, Luke, and John tell
+        us about the life and resurrection of Jesus! Click the link below to
+        learn more!
+        <br />
+      </p>
+
+      <p>
+        <a
+          href="https://overviewbible.com/four-gospels/"
+          class="gospelslink"
+          target="_blank"
+          >The Gospels</a
+        >
+      </p>
+      <p class="gospeld">
+        <em>Sign up for our newsletter to begin your journey!</em>
+      </p>
+      <br />
+      <button>Grow your faith today!</button>
+    </div>
+    <p class="footer">Coded by Kelsey Roundtree</p>
+    <script>
+      let name = prompt("What is your first name?");
+      let bible = prompt("Do you own a bible?");
+      if (bible === "no") {
+        alert(
+          "No worries, " +
+            name +
+            "! Click on the Grow your faith link to start your journey!"
+        );
+      } else {
+        alert("Let's learn more about the SOAP method!");
+      }
+
+      function growFaith() {
+        let soap = prompt("Have you ever used the SOAP method?");
+        let email = prompt("What's your email adress?");
+        if ((soap = "no")) {
+          alert(
+            "Don't worry," +
+              name +
+              "! You'll be a SOAP expert in no time! Thank you for joining our newsletter for daily bible study reads!"
+          );
+        } else {
+          alert(
+            "Thank you for joining our newsletter for daily bible study reads!"
+          );
+        }
+      }
+      let faithButton = document.querySelector("button");
+      faithButton.addEventListener("click", growFaith);
+    </script>
+  </body>
+</html>
